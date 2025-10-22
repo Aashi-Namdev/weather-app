@@ -58,19 +58,19 @@ html,body{
     cursor:pointer;
 }
 #card #icon{
-    margin:32px;
+    margin:25px;
 }
 #card h1{
     font-size: 50px;
 }
 #card h2{
-    margin: 9px;
+    margin: 3px;
     font-size:34px ;
     font-weight: 500;
 }
 #card #details{
     display: flex;
-    margin: 24px;
+    margin: 33px;
     gap:60px;
 }
 #card #details .col{
