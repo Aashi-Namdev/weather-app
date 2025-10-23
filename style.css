@@ -19,7 +19,7 @@ html,body{
 #card{
     width:90%;
     height: 90%;
-    max-width: 330px;
+    max-width: 350px;
     color:#fff;
     background:linear-gradient(135deg,#00feba,#5b5484);
     border-radius: 30px;
@@ -52,10 +52,12 @@ html,body{
     border-radius: 50%;
     border:none;
     outline: none;
+    /* transition: all 0.5s linear 0s; */
 }
 #search i{
     color:gray;
     cursor:pointer;
+    transition: all 0.2s linear 0s;
 }
 #card #icon{
     margin:25px;
@@ -90,4 +92,34 @@ html,body{
     display: flex;
     flex-direction: column;
     gap:4px;
+}
+#card{
+    height: fit-content;
+}
+#card #icon{
+    display: none;
+}
+#card h1{
+    display: none;
+}
+#card h2{
+    display: none;
+}
+#card #details{
+    display: none;
+}
+#card .error{
+    color:rgb(123, 88, 88);
+    display: flex;
+    justify-content: start;
+    margin:5px;
+    font-size: 12px;
+    font-weight: 600;
+    position:absolute;
+    top:8%;
+    left:19%;
+    display: none;
+}
+#search button:hover i{
+    transform: scale(1.2);
 }
